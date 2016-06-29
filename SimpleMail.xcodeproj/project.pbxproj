@@ -12,6 +12,7 @@
 		C79456751D1A29D100A2D341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79456731D1A29D100A2D341 /* Main.storyboard */; };
 		C79456771D1A29D100A2D341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79456761D1A29D100A2D341 /* Assets.xcassets */; };
 		C794567A1D1A29D100A2D341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79456781D1A29D100A2D341 /* LaunchScreen.storyboard */; };
+		C79456821D1A2A0B00A2D341 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79456811D1A2A0B00A2D341 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C79456761D1A29D100A2D341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C79456791D1A29D100A2D341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C794567B1D1A29D100A2D341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79456811D1A2A0B00A2D341 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C79456821D1A2A0B00A2D341 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		C79456631D1A29D100A2D341 = {
 			isa = PBXGroup;
 			children = (
+				C79456811D1A2A0B00A2D341 /* MessageUI.framework */,
 				C794566E1D1A29D100A2D341 /* SimpleMail */,
 				C794566D1D1A29D100A2D341 /* Products */,
 			);
